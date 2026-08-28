@@ -46,22 +46,27 @@ Cardiovascular disease is one of the leading causes of death worldwide, and earl
 
 **Age distribution by heart disease status** — disease prevalence rises noticeably after age 50.
 
-<img width="609" height="470" alt="image" src="https://github.com/user-attachments/assets/2ebf900c-16ca-4b1a-b01c-5e943f00c79d" />
+<img width="609" height="470" alt="image" src="https://github.com/user-attachments/assets/382a578a-d3dc-4790-aef0-2c7217e0af0e" />
+
+
 
 
 **Categorical features vs. target** — sex, chest pain type, exercise-induced angina, and ST slope all show strong separation between classes.
 
-<img width="1389" height="989" alt="image" src="https://github.com/user-attachments/assets/2a0cf3fd-ddd5-4222-9537-79b26b827879" />
+<img width="1389" height="989" alt="image" src="https://github.com/user-attachments/assets/0b93b36e-7212-4913-a338-6bc42f6edf2f" />
+
 
 
 **Numeric feature distributions by target class**
 
-<img width="2190" height="490" alt="image" src="https://github.com/user-attachments/assets/ab0700fc-5b7a-42a0-a34d-596ce1f79c64" />
+<img width="2190" height="490" alt="image" src="https://github.com/user-attachments/assets/64c94f84-4232-4542-9f5f-34c7f0d2a3c7" />
+
 
 
 **Feature correlation heatmap** — `ST_Slope`, `ExerciseAngina`, and `Oldpeak` show the strongest correlation with `HeartDisease`.
 
-<img width="868" height="774" alt="image" src="https://github.com/user-attachments/assets/6368ecc9-b445-49e6-a1d5-5cb571198d9b" />
+<img width="868" height="774" alt="image" src="https://github.com/user-attachments/assets/3895c97f-6d91-44cc-88c8-13e493402c7f" />
+
 
 
 ## 📈 Results
@@ -80,27 +85,32 @@ Cardiovascular disease is one of the leading causes of death worldwide, and earl
 
 **Model performance comparison**
 
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/b2712c7e-403d-455e-9937-6c18afdea96e" />
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/344e27f1-db27-42ec-828f-4bdfff40232a" />
+
 
 
 **5-fold cross-validation accuracy by model**
 
-<img width="889" height="490" alt="image" src="https://github.com/user-attachments/assets/4b099c3b-7d10-456d-8563-e7985c20cf16" />
+<img width="889" height="490" alt="image" src="https://github.com/user-attachments/assets/7ae3f96d-b643-468c-b0ca-ae1c679a2b38" />
+
 
 
 **Confusion matrix — best model (KNN)**
 
-<img width="435" height="393" alt="image" src="https://github.com/user-attachments/assets/7a5ed8a6-08df-40d6-a8d1-87f5d84f4a59" />
+<img width="435" height="393" alt="image" src="https://github.com/user-attachments/assets/5dc7a4c1-df0a-4548-a4e3-65366ba89856" />
+
 
 
 **ROC curve comparison**
 
-<img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/e134fa01-3b04-4a45-9c08-5e5f3f038a92" />
+<img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/783119f5-a4e3-40d3-b899-8118fb2e223a" />
+
 
 
 **Feature importance (Random Forest)** — `ST_Slope`, `ChestPainType`, and `Oldpeak` are the most influential predictors.
 
-<img width="889" height="590" alt="feature_importance_rf" src="https://github.com/user-attachments/assets/d26d2436-f41a-4a79-a51e-33c5d2ed1f44" />
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/af3dd6fe-5e26-49b1-8759-ca18ef9d251d" />
+
 
 
 ## 🛠️ Tech Stack
